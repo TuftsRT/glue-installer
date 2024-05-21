@@ -1,5 +1,5 @@
 name: Glue
-version: 1.11.0
+version: 1.21.0
 company: "Tufts University"
 
 channels:
@@ -12,12 +12,12 @@ conda_default_channels:
 
 specs:
   - conda
-  - glue-core 1.11.0
+  - glue-core 1.21.0
   - glue-shortcut 1.0
   - miniforge_console_shortcut 2.0
 
 user_requested_specs:
-  - glue-core 1.11.0
+  - glue-core 1.21.0
   - glue-shortcut 1.0
   - miniforge_console_shortcut 2.0
 
