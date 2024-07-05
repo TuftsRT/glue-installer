@@ -8,10 +8,18 @@ channels:
 
 specs:
   - conda
+  - conda-libmamba-solver
   - glue-shortcut 1.0
   - glueviz 1.2.0
   - menuinst < 2.0.0
   - miniforge_console_shortcut 2.0
+
+condarc:
+  channels:
+    - tufts
+    - conda-forge
+  channel_priority: strict
+  solver: libmamba
 
 installer_type: exe
 license_file: LICENSE
