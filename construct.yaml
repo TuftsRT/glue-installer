@@ -10,6 +10,7 @@ specs:
   - conda
   - glue-core 1.21.0
   - glue-shortcut 1.0
+  - menuinst < 2.0.0
   - miniforge_console_shortcut 2.0
 
 installer_type: exe
